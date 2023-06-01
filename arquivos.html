@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Centro de Inglês da Trofa</title>
+  <style>
+    body {
+      font-family: Georgia;
+      margin: 0;
+      padding: 0;
+    }
+	
+	.carousel-container {
+      text-align: center;
+    }
+
+    .carousel {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+    }
+
+    .carousel img {
+      flex: 0 0 auto;
+      width: 250px;
+      height: 300px;
+      margin: 10px;
+    }
+
+    .carousel::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    .carousel::-webkit-scrollbar-track {
+      background-color: #f1f1f1;
+    }
+
+    .carousel::-webkit-scrollbar-thumb {
+      background-color: #888;
+    }
+
+    .carousel::-webkit-scrollbar-thumb:hover {
+      background-color: #555;
+    }
+	.list {
+	display: flex;
+	}
+	
+	a:link {
+	text-decoration: none;
+	color: black;
+	}
+
+	a:visited {
+	text-decoration: none;
+	}
+
+	a:hover {
+	text-decoration: underline;
+	}
+	
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 28px;
+      margin-bottom: 20px;
+	  font-family: papyrus;
+    }
+	h2 {
+      color: #333;
+      font-size: 20px;
+      margin-bottom: 20px;
+	  font-family: Georgia;
+    }
+    .text-section {
+      margin-bottom: 20px;
+    }
+
+    .image-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-section img {
+      max-width: 200px;
+      height: auto;
+      margin: 10px;
+    }
+
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+ <nav>
+    <ul>
+      <li style="display: inline-block;"><a href="Index.html">Página Inicial</a></li>
+      <li style="display: inline-block;"><a href="Atividades.html">Atividades</a></li>
+      <li style="display: inline-block;"><a href="contactos.html">Contactos</a></li>
+      <li style="display: inline-block;"><a href="arquivos.html">Arquivos</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <h1>Centro de Inglês da Trofa</h1>
+
+ <div class="list-container">
+      <div class="list">
+        <ol>
+			<li>Arquivo 1</li>
+			<li>Arquivo 2</li>
+			<li>Arquivo 3</li>
+		</ol>
+      </div>
+    </div>
+
+  <div class="footer">
+    <p>&copy; 2023 Conta-me Histórias. Todos os direitos reservados.</p>
+  </div>
+</body>
+</html>
